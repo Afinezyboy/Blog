@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introductions on Yu Zhang</title>
-    <link>https://afinezyboy.github.io/Blog/introduction/</link>
-    <description>Recent content in Introductions on Yu Zhang</description>
+    <title>Posts on Yu Zhang</title>
+    <link>https://afinezyboy.github.io/Blog/posts/</link>
+    <description>Recent content in Posts on Yu Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Nov 2021 23:31:32 +0800</lastBuildDate><atom:link href="https://afinezyboy.github.io/Blog/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Nov 2021 23:31:32 +0800</lastBuildDate><atom:link href="https://afinezyboy.github.io/Blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello, Hugo!</title>
-      <link>https://afinezyboy.github.io/Blog/introduction/welcome/</link>
+      <link>https://afinezyboy.github.io/Blog/posts/welcome/</link>
       <pubDate>Mon, 01 Nov 2021 23:31:32 +0800</pubDate>
       
-      <guid>https://afinezyboy.github.io/Blog/introduction/welcome/</guid>
+      <guid>https://afinezyboy.github.io/Blog/posts/welcome/</guid>
       <description>Hello This is my first webpage built by Hugo.
 This the the second line in the first page.
 See You </description>
@@ -20,10 +20,10 @@ See You </description>
     
     <item>
       <title>我为什么做微博</title>
-      <link>https://afinezyboy.github.io/Blog/introduction/do-it-or-never/</link>
+      <link>https://afinezyboy.github.io/Blog/posts/do-it-or-never/</link>
       <pubDate>Mon, 01 Nov 2021 23:31:32 +0800</pubDate>
       
-      <guid>https://afinezyboy.github.io/Blog/introduction/do-it-or-never/</guid>
+      <guid>https://afinezyboy.github.io/Blog/posts/do-it-or-never/</guid>
       <description>Do it, or Never! 我是一个爱思考和做计划的人。当对一件事情感兴趣时，会想要先做好充分的准备——包括知识准备和思想准备，再去做这件事。
 最近，我遇到了读博期间最大的问题，想得多，做的却少。对于一件已经有想法的事情，往往在纠结其中的各种细节问题，总想要搞清楚整件事情的来龙去脉，却不曾动手搭过一次模型，公式推导也少之又少。
 我发现，自己的惰性在于“做”这件事情上，或许是认为太简单，也或许是认为没有想清楚，担心浪费时间。但问题往往是在做的过程中想清楚的，也只有做，才能让自己深入到这件事情的每个细节中。
@@ -37,12 +37,13 @@ Why Blog? 上研究生以来，可能是因为进入到成长的关键阶段了�
     </item>
     
     <item>
-      <title></title>
-      <link>https://afinezyboy.github.io/Blog/introduction/einstein/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>那个改变了世界的人</title>
+      <link>https://afinezyboy.github.io/Blog/posts/einstein/</link>
+      <pubDate>Mon, 01 Nov 2021 23:31:32 +0800</pubDate>
       
-      <guid>https://afinezyboy.github.io/Blog/introduction/einstein/</guid>
-      <description>那个改变了世界的人 改变了世界的人有很多，今天我想介绍爱因斯坦。
+      <guid>https://afinezyboy.github.io/Blog/posts/einstein/</guid>
+      <description>那个改变了世界的人 abcde
+改变了世界的人有很多，今天我想介绍爱因斯坦。
 他并不是一个神话。相反，他8岁才会说话，本科期间学习并不出众，毕业后的头两年时间内并没有找到一份合适的工作，还是托了父亲的关系才成为了一名专利局的三级职员。看起来似乎那么平凡，像一个小人物一样或者平淡且不如意的一生。
 但他又像一个奇迹。在他的传奇之年，1905年发表了三篇著名的文章，一篇通过研究布朗运动提出了计算原子直径的方法，一篇光电效应的文章证实了光的量子性，从而成为了开创量子力学的鼻祖之一，最著名的一篇是他的狭义相对论，发现了空间和时间的相对性。在接下来的十余年时间里，他仅凭手中的一支笔和自己的想象力，创造了颠覆牛顿力学的广义相对论。
 起初，他并不活跃在学术界，但他热爱学术，经常邀请朋友一起讨论物理学问题，他所在的专利局能够直接接触到最新的发明。他更像是游离在学术界之外的一个存在，所谓“以出世之心做入世之事”。不需要像哪些教授们每天忙于做实验、发表论文，从而有更多的时间专注于自己的思考。

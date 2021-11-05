@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yu Zhang</title>
-    <link>https://afinezyboy.github.io/Blog/</link>
-    <description>Recent content on Yu Zhang</description>
+    <title>Introductions on Yu Zhang</title>
+    <link>https://afinezyboy.github.io/Blog/introduction/</link>
+    <description>Recent content in Introductions on Yu Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Nov 2021 23:31:32 +0800</lastBuildDate><atom:link href="https://afinezyboy.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Nov 2021 23:31:32 +0800</lastBuildDate><atom:link href="https://afinezyboy.github.io/Blog/introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello, Hugo!</title>
       <link>https://afinezyboy.github.io/Blog/introduction/welcome/</link>

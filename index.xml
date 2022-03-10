@@ -9,10 +9,10 @@
     <lastBuildDate>Wed, 09 Mar 2022 23:33:40 +0800</lastBuildDate><atom:link href="https://afinezyboy.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python Guide</title>
-      <link>https://afinezyboy.github.io/Blog/posts/learnpython/</link>
+      <link>https://afinezyboy.github.io/Blog/coding/learnpython/</link>
       <pubDate>Wed, 09 Mar 2022 23:33:40 +0800</pubDate>
       
-      <guid>https://afinezyboy.github.io/Blog/posts/learnpython/</guid>
+      <guid>https://afinezyboy.github.io/Blog/coding/learnpython/</guid>
       <description>Workflow for Python Learner 答应好的教你学Python，不能光买几本书就不管了。作为一个非科班程序员，在学习编程的过程中有很多一些心路历程，也踩过很多很多的坑。在你学习Python的过程中，我也同时出一套文档。这套文档甚至都不能称之为“教程”，因为技术含量实在太少，相关技术内容还是参考网站和书籍吧。这套文章主要为你提供一个“学习框架”，这些内容可能偏经验，许多都是我在学习过程中遇到的一些实际问题，希望能对你有一些帮助。
 本文的主要内容包括（更新中）：
  如何理解编程？从战略上藐视它！ 如何安装Python？老司机告诉你。 Python该怎么学？给你画个框架。 有用的网站资源 &amp;hellip;&amp;hellip;.  战前动员 在高中的时候，我的好朋友东杰送我了一本清华大学谭浩强的《C程序设计》，也正是在那一刻，我开启了对编程浓浓的兴趣。也是在高中，我第一次接触到了吉他和单反相机。东杰后来去了南京创业，做的就是程序开发方面的工作；而我进入了天津大学电气工程专业，却也与编程结下了不解之缘。

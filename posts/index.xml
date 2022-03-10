@@ -6,22 +6,7 @@
     <description>Recent content in Posts on Yu Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Mar 2022 23:33:40 +0800</lastBuildDate><atom:link href="https://afinezyboy.github.io/Blog/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Python Guide</title>
-      <link>https://afinezyboy.github.io/Blog/posts/learnpython/</link>
-      <pubDate>Wed, 09 Mar 2022 23:33:40 +0800</pubDate>
-      
-      <guid>https://afinezyboy.github.io/Blog/posts/learnpython/</guid>
-      <description>Workflow for Python Learner 答应好的教你学Python，不能光买几本书就不管了。作为一个非科班程序员，在学习编程的过程中有很多一些心路历程，也踩过很多很多的坑。在你学习Python的过程中，我也同时出一套文档。这套文档甚至都不能称之为“教程”，因为技术含量实在太少，相关技术内容还是参考网站和书籍吧。这套文章主要为你提供一个“学习框架”，这些内容可能偏经验，许多都是我在学习过程中遇到的一些实际问题，希望能对你有一些帮助。
-本文的主要内容包括（更新中）：
- 如何理解编程？从战略上藐视它！ 如何安装Python？老司机告诉你。 Python该怎么学？给你画个框架。 有用的网站资源 &amp;hellip;&amp;hellip;.  战前动员 在高中的时候，我的好朋友东杰送我了一本清华大学谭浩强的《C程序设计》，也正是在那一刻，我开启了对编程浓浓的兴趣。也是在高中，我第一次接触到了吉他和单反相机。东杰后来去了南京创业，做的就是程序开发方面的工作；而我进入了天津大学电气工程专业，却也与编程结下了不解之缘。
-我们专业对编程的要求很高，因为许多计算方法都非人力能够完成，必须借助计算机才能实现，例如最著名的潮流方程，涉及到迭代和矩阵求逆，非常复杂。记得当时我用的是MATLAB（m语言）编写潮流计算程序，这种语言是一种相当高级的语言，代码量一般不会很大，但为了实现潮流计算，我依然需要几百行代码才能实现从数据读取、预处理、潮流计算、输出的全部功能。最后，这段程序非常神奇地，把一个庞大且复杂的计算，只花了0.2秒就从读取数据运行到了输出。
-实际上，我们课程教的是C++，这是一种比C语言更高级一些的“面向对象”语言（关于面向对象，有机会再做解释），考前为了检验自己的复习成果，用C++写了一个dos版的贪吃蛇，最后考试也得了97分；后来学习微机原理，我又掌握了8086汇编语言，这是一种比C语言还要底层的语言，它可以直接对寄存器和内存进行操作，在课程设计部分，我用汇编语言写了一个扫码枪的程序，能够通过读取扫码枪的条码在LCD屏幕上显示商品信息；大四的时候，为了做大创项目，又学习了Java，基于一个开源的交通流软件Matsim，编写了支持电动汽车特性的包，并翻译了英文著作发表中文帖子，后来被上海的一家交通创业公司联系合作。算下来，在大学期间陆陆续续至少掌握了5种编程语言：C、C++、汇编、Java、m(MATLAB)。
-那么，为什么我又学习Python了呢？
-未完待续，喜欢请催更喔~~O(∩_∩)O</description>
-    </item>
-    
+    <lastBuildDate>Mon, 01 Nov 2021 23:31:32 +0800</lastBuildDate><atom:link href="https://afinezyboy.github.io/Blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello, Hugo!</title>
       <link>https://afinezyboy.github.io/Blog/posts/welcome/</link>

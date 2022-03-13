@@ -124,19 +124,46 @@ Namespaces are one honking great idea &ndash; let&rsquo;s do more of those!</p>
 <h2 id="安装python">安装Python</h2>
 <p>安装Python非常非常简单，并且免费。访问这个网站：https://www.python.org/downloads/windows/，点击“Latest Python 3 Release”上的链接，就能得到最新的Python3版本。当进来后，网页拉到最下方，点击“Windows installer (64-bit)”，即可开始下载。下载后双击即可安装。</p>
 <p>此处，唯一需要注意的是，Python运行需要依赖“环境变量”（Windows设置路径的一个机制），好在最新版本的Python能够帮我们自动配置环境变量。在安装时，在“Advanced Options”种注意勾选“Add Python to environment variables”。</p>
-<p>当安装完毕后，打开windows的命令提示行，输入<code>python</code>，如果得到如下输出：</p>
-<pre tabindex="0"><code>C:\Users\XXX&gt;python
-Python 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)] on win32
-Type &#34;help&#34;, &#34;copyright&#34;, &#34;credits&#34; or &#34;license&#34; for more information.
-&gt;&gt;&gt;
-</code></pre><p>那么就说明已经大功告成！接下来，你可以输入你的第一行命令：</p>
-<pre tabindex="0"><code>&gt;&gt;&gt; print(&#39;Hello, Python!&#39;)
-Hello, Python!
-</code></pre><p>你当然也可以把他作为你的私人计算器：</p>
-<pre tabindex="0"><code>&gt;&gt;&gt; 1+2
-3
-</code></pre><p>神奇吗？不需要像C或者Java那样新建一个文件，写一大堆<code>int main()</code>这样令人难解的语句才能运行。Python就像你的一位朋友，你说一句，他答一句。嗯，就是这么令人舒适！</p>
-<p>未完待续。马上我将会介绍合适的编写环境，代替这个丑丑的命令提示行。喜欢请催更哦！</p>
+<p>当安装完毕后，打开windows的命令提示行（可以在左下角搜索栏输入“cmd”），输入<code>python</code>，如果得到如下输出：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cmd" data-lang="cmd"><span style="display:flex;"><span>C:\Users\XXX<span style="color:#75715e">&gt;python</span>
+</span></span><span style="display:flex;"><span>Python 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)] on win32
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">Type</span> <span style="color:#e6db74">&#34;help&#34;</span>, <span style="color:#e6db74">&#34;copyright&#34;</span>, <span style="color:#e6db74">&#34;credits&#34;</span> or <span style="color:#e6db74">&#34;license&#34;</span> for more information.
+</span></span><span style="display:flex;"><span>&gt;&gt;&gt;
+</span></span></code></pre></div><p>那么就说明已经大功告成！接下来，你可以输入你的第一行命令：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;&gt;</span> print(<span style="color:#e6db74">&#39;Hello, Python!&#39;</span>)
+</span></span><span style="display:flex;"><span>Hello, Python<span style="color:#960050;background-color:#1e0010">!</span>
+</span></span></code></pre></div><p>你当然也可以把他作为你的私人计算器：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">+</span><span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">3</span>
+</span></span></code></pre></div><p>神奇吗？不需要像C或者Java那样新建一个文件，写一大堆<code>int main()</code>这样令人难解的语句才能运行。Python就像你的一位朋友，你说一句，他答一句。嗯，就是这么令人舒适！</p>
+<h2 id="配置开发环境">配置开发环境</h2>
+<p>刚才提到，安装完python后可以通过命令提示行cmd进入到python的运行环境中，但这个环境也太丑了，更重要的是不仅不能观看内存中的变量，而且不方便调试，如果用这个环境写一行运行一行，那效率真的慢到猴年马月了。</p>
+<p>实际上，在安装完python后，有一个很简陋的用户界面：IDLE。安装完python后能够在开始菜单内看到它（如果找不到，也可以通过windows搜索“Idle”找到）。打开IDLE后，发现是一个很简洁的白色界面，但大体上就像从cmd中进入python几乎一样。另外也可以通过菜单栏新建python脚本文件。但这个界面依然是太过于简陋了！非常不方便未来的调试和运行。</p>
+<p>有没有好用并且好看一点的界面呢？</p>
+<p>有！Pycharm或VSCode，前者的名言是：“人生苦短，我用Pycharm”；后者就更了不起了，被称为宇宙编辑器！</p>
+<p>这两个开发环境都不错，不过，从以下角度出发考虑，我还是为你推荐VSCode：</p>
+<ul>
+<li>VSCode可以任意更换成千上万种主题，非常好看，而Pycharm的主题数量有限；</li>
+<li>VSCode完全免费，Pycharm只有社区版免费；</li>
+<li>VSCode即开即写，Pycharm必须首先创建工程、配置工程、才能开始编程，较为繁琐；</li>
+<li>VSCode可以轻松配置Jupyter Notebook（稍后会提到，多么了不起的交互式环境！），而Pycharm配置Jupyter较为复杂，至今我还没有成功；</li>
+<li>VSCode支持所有语言的语法格式、高亮、能够打开所有非二进制类型的文件，而Pycharm只能支持少数几种语言；</li>
+<li>VSCode能够支持所有编程语言开发，比如以后想要学习Markdown、HTML等都可以继续基于VSCode，而不必安装新的开发环境（这也是为什么被称为“宇宙编辑器”，因为真的是universial editor!）；而Pycharm主要是针对python设计的开发环境。</li>
+</ul>
+<p>综上，我推荐VSCode作为python的开发环境。</p>
+<h3 id="配置vscode">配置VSCode</h3>
+<p>VSCode的下载和安装非常方便，只需访问VSCode的官网：https://code.visualstudio.com/，点击最醒目的“Download for Windows”即可下载，下载后双击安装，十分丝滑。</p>
+<p>安装完成后，双击打开VSCode，在左侧栏靠上一排按钮中，点击最后一个，这就是VSCode安装扩展（extension）的地方。这里稍微解释一下，VSCode如此强大的原因，并不在于它本身多么厉害，而在于它拥有众多（真的非常非常多）扩展，正是这些扩展丰富了它的功能。VSCode是一个开源项目，这意味任何人都可以看到它的代码，并为其贡献代码。这种开源精神吸引了全世界的开发者，是他们为VSCode编写了如此众多的扩展，就像老虎插上了一排排翅膀！</p>
+<p>在这里，我推荐的扩展包括：</p>
+<ul>
+<li>Chinese (Simplified)：让VSCode界面语言变成中文的；</li>
+<li>Office Theme：提供Office主题配色，是我目前最喜欢的一套主题颜色；</li>
+<li>Python：使VSCode具备Python开发测试功能；</li>
+<li>Jupyter：使VSCode能够直接运行Jupyter Notebook。</li>
+</ul>
+<p>好了，现在你已经拥有具备开发python的一切条件了！</p>
+<p>未完待续。后面我将会介绍如何使用VSCode运行python脚本，以及如何使用Jupyter Notebook进行交互式编程。
+喜欢请催更哦！</p>
 
 </div>
 
